@@ -1,0 +1,112 @@
+<!-- Angela Wang 6/29/2023 -->
+
+<!-- this is the one with all the bugs-->
+<!-- instead, see "cssPositioning" -->
+
+<html>
+    <head>
+        <title></title>
+        <style type = "text/css">
+            #top {
+                top: 20px;
+                width: 80%; /* 800px */
+                height: 180px;
+                background-color: #fec161;
+                text-align: center;
+                margin: 0 auto;
+                position: relative;
+            } 
+            /*fec161*/
+            
+            #invisbox {
+                top: 52px;
+                width: 80%; /* 800px */
+                height: 400px;
+                background-color: aqua;
+                text-align: center;
+                margin: 0 auto;
+                position: relative;
+            }
+            
+            #menu {
+                position: absolute;
+                top: 240px;
+                width: 200;
+                height: 400px;
+                text-align: left;
+                margin: 0 auto;
+                background-color: #e7941e
+            }
+            /*e7941e*/
+            
+            #body {
+                position: absolute;
+                top: 240px;
+                left: 240px;
+                width: 580px;
+                height: 338px;
+                text-align: right;
+                margin: 0 auto;
+                background-color: #bf7000;
+                padding-top: 60px
+            }
+            /*bf7000*/
+            
+            #bottom {
+                position: relative;
+                top: 500px;
+                width: 80%;
+                height: 140px;
+                text-align: center;
+                margin: 0 auto;
+                background-color: #faae44;
+                padding-top: 25px;
+                text-align: center
+            }
+            /*faae44*/
+            
+            #center {
+                text-align: center
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1 id = "top" style = "font-size: 45px">
+            
+            <div>
+                -------------------------------------------- <br>
+                Why Peanut Butter Is Superior To Jelly <br>
+                -------------------------------------------- <br>
+            </div></h1>
+        
+        <h3 id = "menu">
+            <div align = "center">
+                --------------------------- <br>
+                Picture of Peanut Butter: <br>
+                --------------------------- <br>
+                <img src = "peanutbutter.png" style = "width: 120px"><br>
+                --------------------------- <br>
+                Picture of Jelly: <br>
+                --------------------------- <br>
+                <img src = "jarofjelly.png" style = "width: 100px"> <br>
+            </div></h3>
+        <h2 id = "invisbox">hi</h2>
+        <h1 id = "body">
+            <div id = "center">
+            --------------------------- <br>
+            1. it tastes better <br>
+            --------------------------- <br>
+            2. it looks yum <br>
+            --------------------------- <br>
+            3. you are less likely to get diabetes <br>
+            --------------------------- <br></div>
+        </h1>
+            
+        <h1 id = "bottom">
+            this is why peanut butter is better than jelly <br>
+            --------------------------- <br>
+            thank you for coming to my ted talk
+        </h1>
+    </body>
+</html>
