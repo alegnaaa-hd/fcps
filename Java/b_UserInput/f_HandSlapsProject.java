@@ -80,7 +80,6 @@ public class f_HandSlapsProject {
                     else {
                         System.out.println("Computer goes first");
                     }
-                    
                 }
                 
                 else if (continuechoice.equals("2")){
@@ -94,7 +93,6 @@ public class f_HandSlapsProject {
                     System.out.println(line);
                     
                 }
-                
             }
         }
         
@@ -109,5 +107,7 @@ public class f_HandSlapsProject {
         }
         
         System.out.println(line);
+
+        // to be continued... or not
     }   
 }
