@@ -1,8 +1,8 @@
-package Java.UserInput;
+package Java.b_UserInput;
 
 import java.util.Scanner;
 
-public class FirstJavaPrograms {
+public class a_FirstJavaPrograms {
     public static void main(String[] args) {
             
         Scanner scan = new Scanner(System.in);

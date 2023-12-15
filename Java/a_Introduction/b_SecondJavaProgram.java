@@ -1,8 +1,8 @@
-package Java.Introduction;
+package Java.a_Introduction;
 
 import java.util.Scanner;
 
-public class SecondJavaProgram {
+public class b_SecondJavaProgram {
     public static void main(String[] args) {
         
         try (Scanner scan = new Scanner(System.in)) {
