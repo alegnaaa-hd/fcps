@@ -2,7 +2,7 @@ package Java.a_Introduction;
 
 import java.util.Scanner;
 
-public class b_SecondJavaProgram {
+public class SecondJavaProgram {
     public static void main(String[] args) {
         
         try (Scanner scan = new Scanner(System.in)) {
