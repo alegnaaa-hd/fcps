@@ -8,7 +8,7 @@ June 26th - July 14th, 2023
 - [CSS](https://github.com/alegnaaa-hd/fcps/tree/main/HTML%20%26%20CSS/CSS)
     - [more info](#css)
 - [Java](https://github.com/alegnaaa-hd/fcps/tree/main/Java)
-    - [section verview](#overview)
+    - [section overview](#overview)
     - [notable projects](#notable-projects)
 
 ## HTML
